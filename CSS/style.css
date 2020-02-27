@@ -3,3 +3,7 @@
     max-width: 100%;
     height: auto;
 }
+
+.bold {
+    font-weight: bold;
+}
