@@ -9,7 +9,7 @@
 /* experimenting with custom variables */
 
 :root {
-    --bggradient: linear-gradient(to bottom, #0093E9, #80D0C7);
+    --bggradient: linear-gradient(to bottom, #c2e59c, #64b3f4);
     --light-black: #2e2c2caf;
     --Rubik: "Rubik", cursive;
     --Fjalla: "Fjalla One", cursive;
@@ -96,7 +96,7 @@ main .section-1 .col-md-6 p {
 /* CONTACT STUFF */
 
 .contact-form {
-    margin-bottom: 5rem;
+    margin-bottom: 8rem;
     margin-top: 3rem;
     padding: 4vmin 1vmin;
     background: rgba(0, 0, 0, 0.6);
