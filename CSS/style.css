@@ -158,6 +158,18 @@ header .nav-link {
 
 header .nav-link:hover {
     color: var(--light-black);
+    background-color: white;
+    padding: 0.8rem;
+    border-radius: 30px;
+    letter-spacing: 2px;
+}
+
+header .navbar-brand:hover {
+    color: black;
+    background-color: white;
+    padding: 0.6rem;
+    border-radius: 30px;
+    letter-spacing: 2px;
 }
 
 header .navbar-brand {
@@ -165,6 +177,7 @@ header .navbar-brand {
     padding-left: 0.5rem;
     font-family: var(--Fjalla);
     font-size: 1.5rem;
+    transition: 0.2s;
 }
 
 header .navbar-toggler-icon {
