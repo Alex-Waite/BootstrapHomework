@@ -118,6 +118,12 @@ main .section-1 .col-md-6 p {
     padding-top: 1rem;
 }
 
+/* PORTFOLIO THINGS */
+main .col-md-3 img {
+    display: block;
+    max-width: 100%;
+    padding: 0.6rem;
+}
 
 /*HEADER STUFF*/
 
