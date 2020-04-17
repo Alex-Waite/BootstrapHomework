@@ -9,7 +9,7 @@
 /* experimenting with custom variables */
 
 :root {
-    --bggradient: linear-gradient(to bottom, #c2e59c, #64b3f4);
+    --bggradient: linear-gradient(to bottom, #194162, #64b3f4);
     --light-black: #2e2c2caf;
     --Rubik: "Rubik", cursive;
     --Fjalla: "Fjalla One", cursive;
@@ -145,11 +145,40 @@ main .col-md-3 img {
     box-shadow: 0px 0px 10px 3px white;
 }
 
-main .col-md-6 h1 {
+.pfContainer {
+    margin: 1rem;
+}
+
+.pfHeader {
+    color: white;
+    font-family: var(--Fjalla);
+    font-weight: 700;
+    font-size: 5rem;
+    letter-spacing: 5px;
+    text-decoration: underline white;
+    margin-bottom: 1rem;
+}
+
+.pfBlurb {
     color: white;
     font-family: var(--Rubik);
     font-weight: 700;
+
+}
+
+.pfProjectHeader {
+    color: white;
+    font-family: var(--Fjalla);
+    font-weight: 700;
     font-size: 2rem;
+    letter-spacing: 5px;
+    text-decoration: underline white;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+.pfCardContainer {
+    margin-bottom: 1rem;
 }
 
 main .col-md-6 h2 {
@@ -160,6 +189,19 @@ main .col-md-6 h2 {
 
 main .container {
     padding: 1vmin 1vmin;
+}
+
+.card {
+    width: 100%;
+}
+
+.card-body {
+    border-top: 1px solid black;
+}
+
+.card-img-top:hover {
+    box-shadow: 0px 0px 5px 5px white;
+    transition: 0.2s;
 }
 
 /*HEADER STUFF*/
