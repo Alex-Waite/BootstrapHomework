@@ -51,11 +51,11 @@ body {
 }
 
 main .row .col-md-5 {
-    padding: 22vmin 1vmin;
+    padding: 5vmin 1vmin;
 }
 
 main .row .col-md-7 {
-    padding: 22vmin 1vmin;
+    padding: 5vmin 1vmin;
     padding-bottom: 6vmin;
     font-family: var(--Rubik);
     color: white;
@@ -72,10 +72,20 @@ main .col-md-7 p {
     padding: 1vmin 5vmin;
 }
 
+main .col-sm-12 .imgContainer {
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+main .col-sm-12 .descContainer {
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
 /*ABOUT ME/MAIN*/
 main .section-1 .col-md-6 {
     color: white;
-    padding: 10vmin 1vmin;
+    padding: 1vmin 1vmin;
 }
 
 main .section-1 .col-md-6 h1 {
@@ -91,6 +101,15 @@ main .section-1 .col-md-6 h6 {
 
 main .section-1 .col-md-6 p {
     font-family: var(--Rubik);
+}
+
+.imgFloatLeft {
+    margin: 1rem;
+    box-shadow: 0px 0px 2px 2px white;
+}
+
+.aboutAlex {
+    margin: 1rem;
 }
 
 /* CONTACT STUFF */
@@ -140,7 +159,7 @@ main .col-md-6 h2 {
 }
 
 main .container {
-    padding: 4vmin 1vmin;
+    padding: 1vmin 1vmin;
 }
 
 /*HEADER STUFF*/
@@ -159,8 +178,11 @@ header .nav-link {
 header .nav-link:hover {
     color: var(--light-black);
     background-color: white;
-    padding: 0.8rem;
-    border-radius: 30px;
+    padding-top: 0.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 0.5rem;
+    border-radius: 12px;
     letter-spacing: 2px;
 }
 
@@ -168,7 +190,7 @@ header .navbar-brand:hover {
     color: black;
     background-color: white;
     padding: 0.6rem;
-    border-radius: 30px;
+    border-radius: 12px;
     letter-spacing: 2px;
 }
 
